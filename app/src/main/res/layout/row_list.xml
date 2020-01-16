@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/colorBackgroundWhite"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                     android:padding="@dimen/contentPadding_CardView"
+        >
+        <RelativeLayout
+                android:padding="@dimen/padding_LinearLayout"
+                android:layout_width="match_parent"
+                android:background="@color/colorBackgroundWhite"
+                android:layout_height="match_parent">
+            <TextView
+                    android:id="@+id/txtTitle"
+                    android:text="Title"
+                    android:fontFamily="@font/regular"
+                    android:textSize="@dimen/textSize_titleQuestion"
+                    android:textColor="@color/colorBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Button
+                        android:id="@+id/btn_AnserA"
+                        android:text="A"
+                        android:layout_below="@id/txtTitle"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+
+                        android:layout_marginTop="@dimen/layout_marginTop_btnAnser_row_list"
+                        android:layout_width="@dimen/layout_width_ButtonQuestion"
+                        android:layout_height="@dimen/layout_height_ButtonQuestion"
+                />
+                <TextView
+                        android:id="@+id/txt_AnserA"
+                        android:text="Anser A"
+                        android:padding="@dimen/padding_TextQuestion"
+                        android:textSize="@dimen/textSize_TextQuestion"
+                        android:fontFamily="@font/regular"
+                        android:textColor="@color/colorBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitle"
+                        android:layout_marginTop="@dimen/layout_marginTop_txtAnser_row_list"
+                        android:layout_toRightOf="@id/btn_AnserA"
+                />
+                <Button
+                        android:id="@+id/btn_AnserB"
+                        android:layout_below="@id/txt_AnserA"
+                        android:layout_width="@dimen/layout_width_ButtonQuestion"
+                        android:text="B"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+
+                        android:layout_marginTop="@dimen/layout_marginTop_btnAnser_row_list"
+
+                        android:layout_height="@dimen/layout_height_ButtonQuestion"
+                />
+                <TextView
+                        android:id="@+id/txt_AnserB"
+                        android:text="Anser B"
+                        android:fontFamily="@font/regular"
+                        android:textSize="@dimen/textSize_TextQuestion"
+                        android:padding="@dimen/padding_TextQuestion"
+                        android:textColor="@color/colorBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt_AnserA"
+                        android:layout_marginTop="@dimen/layout_marginTop_txtAnser_row_list"
+                        android:layout_toRightOf="@id/btn_AnserB"
+                />
+                <Button
+
+                        android:id="@+id/btn_AnserC"
+                        android:text="C"
+
+                        android:layout_width="@dimen/layout_width_ButtonQuestion"
+                        android:layout_height="@dimen/layout_height_ButtonQuestion"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+
+                        android:layout_below="@id/txt_AnserB"
+                        android:layout_marginTop="@dimen/layout_marginTop_btnAnser_row_list"
+                />
+                <TextView
+                        android:id="@+id/txt_AnserC"
+                        android:text="Anser C"
+                        android:fontFamily="@font/regular"
+                        android:textSize="@dimen/textSize_TextQuestion"
+                        android:textColor="@color/colorBlack"
+                        android:padding="@dimen/padding_TextQuestion"
+                        android:layout_below="@id/txt_AnserB"
+                        android:layout_toRightOf="@id/btn_AnserC"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/layout_marginTop_txtAnser_row_list"
+                        android:layout_height="wrap_content"/>
+                <Button
+                        android:id="@+id/btn_AnserD"
+                        android:layout_width="@dimen/layout_width_ButtonQuestion"
+                        android:text="D"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:layout_height="@dimen/layout_height_ButtonQuestion"
+                        android:layout_below="@id/txt_AnserC"
+                        android:layout_marginTop="@dimen/layout_marginTop_btnAnser_row_list"
+                />
+                <TextView
+                        android:id="@+id/txt_AnserD"
+                        android:text="Anser D"
+                        android:textSize="@dimen/textSize_TextQuestion"
+                        android:fontFamily="@font/regular"
+                        android:padding="@dimen/padding_TextQuestion"
+                        android:textColor="@color/colorBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/layout_marginTop_txtAnser_row_list"
+                        android:layout_below="@id/txt_AnserC"
+                        android:layout_toRightOf="@id/btn_AnserD"
+                />
+             </RelativeLayout>
+        </FrameLayout>
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorGrey" />
+
+</androidx.cardview.widget.CardView>

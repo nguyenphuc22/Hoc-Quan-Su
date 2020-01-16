@@ -1,0 +1,33 @@
+<resources>
+    <string name="banner_ad_unit_id">ca-app-pub-5262778888403948/3439205538</string>
+    <string name="app_name">Puli!Ôn luyện quân sự ,Qua môn dể dàng.</string>
+    <string name="title_menu">Danh Sách Học Phần</string>
+    <string name="subtitle_menu">Chọn học phần</string>
+
+    <string name="title_hp1">Học Phần 1</string>
+    <string name="title_hp2">Học Phần 2</string>
+    <string name="title_hp3">Học Phần 3</string>
+    <string name="title_data">Tài Liệu</string>
+
+    <string name="subtitle_hp1">Đường lối quốc phòng an ninh đảng</string>
+    <string name="subtitle_hp2">Công tác quốc phòng và an ninh</string>
+    <string name="subtitle_hp3">Vũ khí quân sự và chiến thuật</string>
+    <string name="subtitle_data">Đáp án tất cả các câu</string>
+    <string name="total_sentence">Tổng câu</string>
+    <string name="time">Thời gian</string>
+
+    <string name="title_fail">Thất Bại</string>
+    <string name="title_medium">Tạm Tạm</string>
+    <string name="title_good">Tuyệt Quá</string>
+
+    <string name="body_fail">Bạn làm không tốt trong lần thi này.Nhưng đừng nãn chí , hãy làm thêm một lần nữa.
+        NEVER GIVE UP!</string>
+    <string name="body_medium">Bạn nên luyện tập chăm chỉ hơn,bạn có nguy cơ trượt học phần này rất cao.</string>
+    <string name="body_good">Bạn làm tốt lắm , hãy rèn luyện thêm để duy trì được kết quả.</string>
+
+    <string name="setting_Question">Chọn câu hỏi:</string>
+    <string name="setting_Time">Chọn thời gian:</string>
+    <string name="setting_mode">Thi thử:</string>
+
+    <string name="end_time">Đã hết giờ làm bài</string>
+</resources>

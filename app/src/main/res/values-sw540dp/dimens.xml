@@ -1,0 +1,143 @@
+<resources>
+  <dimen name="size_icon_setting_activyti_main">
+    45.0dp
+  </dimen>
+  <dimen name="size_title_menu">
+    36.0sp
+  </dimen>
+  <dimen name="size_subtitle_menu">
+    24.0sp
+  </dimen>
+  <dimen name="size_totalSentence_and_time">
+    24.0dp
+  </dimen>
+  <dimen name="textsize_titleCardView">
+    24.0dp
+  </dimen>
+  <dimen name="textsize_subtitleCardView">
+    21.0dp
+  </dimen>
+  <dimen name="textSize_TextQuestion">
+    24.0dp
+  </dimen>
+  <dimen name="textSize_titleQuestion">
+    30.0sp
+  </dimen>
+  <dimen name="size_img_dialog_result">
+    180.0dp
+  </dimen>
+  <dimen name="textSize_button">
+    21.0sp
+  </dimen>
+  <dimen name="size_title_in_toolbar">
+    21.0sp
+  </dimen>
+  <dimen name="size_img_title_list">
+    45.0dp
+  </dimen>
+  <dimen name="size_img_main">
+    108.0dp
+  </dimen>
+  <dimen name="layout_width_ButtonQuestion">
+    52.5dp
+  </dimen>
+  <dimen name="layout_height_ButtonQuestion">
+    52.5dp
+  </dimen>
+  <dimen name="layout_marginTop_title_menu">
+    48.0dp
+  </dimen>
+  <dimen name="layout_marginTop_CardView">
+    33.0dp
+  </dimen>
+  <dimen name="layout_width_CardView">
+    234.0dp
+  </dimen>
+  <dimen name="layout_height_CardView">
+    276.0dp
+  </dimen>
+  <dimen name="layout_marginTop_ImageOfIcon">
+    39.0dp
+  </dimen>
+  <dimen name="layout_marginTop_titleCardView">
+    24.0dp
+  </dimen>
+  <dimen name="layout_margin_fab_Activyti_List">
+    66.0dp
+  </dimen>
+  <dimen name="layout_height_bottom_sheet_setting">
+    120.0dp
+  </dimen>
+  <dimen name="layout_marginLeft_bottom_sheet_setting">
+    24.0dp
+  </dimen>
+  <dimen name="layout_marginBottom_txtMess_dialog_result">
+    15.0dp
+  </dimen>
+  <dimen name="layout_marginTop_Relati_dialog_result">
+    60.0dp
+  </dimen>
+  <dimen name="layout_marginRight_txtNewExam_dialog_result">
+    24.0dp
+  </dimen>
+  <dimen name="layout_marginTop_txtAnser_row_list">
+    12.0dp
+  </dimen>
+  <dimen name="layout_marginTop_btnAnser_row_list">
+    18.0dp
+  </dimen>
+  <dimen name="layout_marginLeft_subtitle_list">
+    9.0dp
+  </dimen>
+  <dimen name="layout_height_toolbar_inlist">
+    90.0dp
+  </dimen>
+  <dimen name="layout_marginLeft_item_menu">
+    18.0dp
+  </dimen>
+  <dimen name="layout_marginBottom_ads">
+    67.5dp
+  </dimen>
+  <dimen name="cardCornerRadius_CardView">
+    21.0dp
+  </dimen>
+  <dimen name="cardElevation_CardView">
+    12.0dp
+  </dimen>
+  <dimen name="paddingLeft_subtit_menu">
+    12.0dp
+  </dimen>
+  <dimen name="paddingRight_subtit_menu">
+    12.0dp
+  </dimen>
+  <dimen name="padding_LinearLayout">
+    18.0dp
+  </dimen>
+  <dimen name="padding_TextQuestion">
+    12.0dp
+  </dimen>
+  <dimen name="padding_Toolbar_activity_list">
+    12.0dp
+  </dimen>
+  <dimen name="padding_Left_Right_RecyclerView">
+    12.0dp
+  </dimen>
+  <dimen name="padding_bottom_sheet_setting">
+    30.0dp
+  </dimen>
+  <dimen name="padding_LinerLayout_dialog_result">
+    18.0dp
+  </dimen>
+  <dimen name="paddingLeft_Toolbar_activity_main">
+    10.5dp
+  </dimen>
+  <dimen name="paddingTop_Toolbar_activity_main">
+    10.5dp
+  </dimen>
+  <dimen name="paddingRight_img_setting">
+    60.0dp
+  </dimen>
+  <dimen name="contentPadding_CardView">
+    12.0dp
+  </dimen>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menu"
+        tools:context=".view.MainActivity"
+        android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_meu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    >
+        <RelativeLayout
+                android:paddingLeft="@dimen/paddingLeft_Toolbar_activity_main"
+                android:paddingTop="@dimen/paddingTop_Toolbar_activity_main"
+                android:paddingRight="@dimen/paddingRight_img_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/title_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/size_title_menu"
+                    android:layout_marginTop="@dimen/layout_marginTop_title_menu"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textColor="@color/colorText_Title"
+                    android:text="@string/title_menu"
+            />
+            <TextView
+                    android:id="@+id/subtitle_menu"
+                    android:text="@string/subtitle_menu"
+                    android:textColor="@color/colorText_Subtitle"
+                    android:textSize="@dimen/size_subtitle_menu"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_menu"
+            />
+            <ImageView
+                    android:id="@+id/img_setting"
+                    android:src="@drawable/ic_settings_black_24dp"
+                    android:layout_width="@dimen/size_icon_setting_activyti_main"
+                    android:layout_height="@dimen/size_icon_setting_activyti_main"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:layout_alignTop="@id/subtitle_menu"
+                    android:layout_alignParentEnd="true"
+            />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_menu"
+                android:paddingRight="@dimen/padding_Left_Right_RecyclerView"
+                android:paddingLeft="@dimen/padding_Left_Right_RecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/layout_marginBottom_ads"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+
+</LinearLayout>
